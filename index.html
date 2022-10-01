@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Our traveling agency page" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>Travelu - Home</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Our traveling agency page" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Travelu - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+</head>
 
   <head>
     <meta charset="UTF-8" />
@@ -35,14 +30,13 @@
     />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
   </head>
-
   <body>
     <header>
       <section class="header-nav">
         <h1 class="header-nav__title">Travelulu</h1>
         <div class="hamburger">
           <a href="active-nav.html"
-            ><button class="hamburger-button">
+            ><button aria-label="Navigation Menu" class="hamburger-button">
               <i class="fa-solid fa-bars"></i></button
           ></a>
         </div>
@@ -68,7 +62,9 @@
               type="text"
               value="2 adults - 0 children"
             />
-            <button class="main-search-form button-search-main">Search</button>
+             <button aria-label="Search Button" class="main-search-form button-search-main">
+            <span class="main-search-form button-search-main__text">Search</span>
+          </button>
           </div>
         </form>
       </section>

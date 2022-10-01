@@ -1,9 +1,10 @@
 @use "../mixins/button-search";
+@use "../mixins/button-search-text";
 
 .button-search-main {
   @include button-search.button-search-main;
 }
 
-.fa-bars {
-  font-size: 1.5rem;
+.button-search-main__text {
+  @include button-search-text.button-search-text;
 }
