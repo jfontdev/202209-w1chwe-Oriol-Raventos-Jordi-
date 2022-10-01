@@ -1,5 +1,7 @@
 @use "./componentes/button-hamburger-comp";
+@use "./componentes/button-search-comp";
 @use "./componentes/nav-bar";
+@use "./componentes/main-search-form";
 
 :root {
   --margin: 0, 30px;
