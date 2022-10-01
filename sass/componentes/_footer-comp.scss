@@ -1,0 +1,9 @@
+@use "../mixins/footer";
+
+footer {
+  @include footer.footer;
+}
+
+.footer-title {
+  @include footer.footer-title;
+}
