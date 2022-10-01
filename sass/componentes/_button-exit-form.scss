@@ -1,0 +1,9 @@
+@use "../mixins/button-exit";
+
+.cross-button {
+  @include button-exit.exit-button;
+}
+
+.fa-xmark {
+  font-size: 1.5rem;
+}
