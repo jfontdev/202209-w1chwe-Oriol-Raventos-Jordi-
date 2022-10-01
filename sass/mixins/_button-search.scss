@@ -1,5 +1,6 @@
-@mixin button-search-main($theme: yellow) {
-  color: #fff;
+@mixin button-search-main() {
   background-color: #ed2e7e;
   border-radius: 1rem;
+  border: #fff;
+  display: flex;
 }
