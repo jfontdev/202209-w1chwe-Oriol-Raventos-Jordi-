@@ -1,4 +1,5 @@
 pipeline.md
 node_modules
 /styles
+.DS_Store
 
