@@ -1,0 +1,30 @@
+@mixin notifications_card() {
+  border: 1px solid;
+  border-radius: 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@mixin notification_card_success {
+  border-color: #00ba88;
+  background-color: #f2fffb;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@mixin notification_card_danger {
+  border-color: #ed2e7e;
+  background-color: #fff3f8;
+}
+
+@mixin notification_text_success {
+  color: #00ba88;
+}
+
+@mixin notification_text_danger {
+  color: #ed2e7e;
+}
