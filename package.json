@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/jfontdev/202209-w1chwe-Oriol-Raventos-Jordi-#readme",
   "devDependencies": {
-    "husky": "^8.0.0"
-  },
-  "dependencies": {
+    "husky": "^8.0.0",
     "sass": "^1.55.0"
   }
 }
