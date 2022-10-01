@@ -1,0 +1,21 @@
+@use "../componentes/button-exit-form";
+
+.header-nav-active {
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  border-bottom: 0.8px solid #ffff;
+  background-color: #2a00a2;
+}
+
+.header-nav-active__title {
+  font-family: "Poppins";
+  color: #ffff;
+  font-size: 34px;
+}
+
+.header-nav-active-header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
