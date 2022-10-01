@@ -1,0 +1,20 @@
+@use "../mixins/notifications";
+
+.notification {
+  @include notifications.notifications_card;
+}
+.notification__success {
+  @include notifications.notification_card_success;
+}
+
+.notification__danger {
+  @include notifications.notification_card_danger;
+}
+
+.notification__text-success {
+  @include notifications.notification_text_success;
+}
+
+.notification__text-danger {
+  @include notifications.notification_text_danger;
+}
