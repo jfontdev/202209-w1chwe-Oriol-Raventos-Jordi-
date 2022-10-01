@@ -1,0 +1,33 @@
+@use "../mixins/main-search-form";
+
+.main-search-form {
+  @include main-search-form.main-search-form;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-search-form-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-search-form__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.button-search-main {
+  margin-top: 20px;
+}
+
+.fa-chevron-right {
+  position: absolute;
+  right: 5%;
+}
