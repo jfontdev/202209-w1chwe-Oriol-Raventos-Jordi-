@@ -1,5 +1,16 @@
+@use "../variables/root";
+
+$margin-right-left: var(--margin);
+
 .header-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 30px;
+}
+
+.header-nav__title {
+  font-family: "Poppins";
+  color: #5f2eea;
+  font-size: 34px;
 }
