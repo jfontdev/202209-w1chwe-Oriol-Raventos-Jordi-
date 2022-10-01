@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "sass": "sass sass/styles.scss styles/styles.css"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/jfontdev/202209-w1chwe-Oriol-Raventos-Jordi-#readme",
   "devDependencies": {
     "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
   }
 }
