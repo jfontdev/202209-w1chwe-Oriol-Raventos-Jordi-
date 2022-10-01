@@ -1,0 +1,5 @@
+@use "../mixins/more-information-card";
+
+.more-information-box {
+  @include more-information-card.information-box;
+}
