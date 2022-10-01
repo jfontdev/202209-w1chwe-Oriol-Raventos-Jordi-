@@ -1,0 +1,9 @@
+@use "../mixins/button-hamburger";
+
+.hamburger-button {
+  @include button-hamburger.hamburger-button;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+}
