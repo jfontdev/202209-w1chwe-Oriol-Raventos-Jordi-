@@ -1,283 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Our traveling agency page" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>Travelu - Home</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <header>
-      <section class="header-nav">
-        <h1 class="header-nav__title">Travelulu</h1>
-        <div class="hamburger">
-          <a href="active-nav.html"
-            ><button aria-label="Navigation Menu" class="hamburger-button">
-              <i class="fa-solid fa-bars"></i></button
-          ></a>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section class="main-search-form-section">
-        <h2 class="subtitle">Find deals on hotels, homes and much more...</h2>
-        <form>
-          <div class="main-search-form">
-            <div class="input-container">
-              <input
-                class="main-search-form__input"
-                type="text"
-                placeholder="Check-in - Check-out"
-              />
-              <i class="fa-solid fa-chevron-right"></i>
-            </div>
-            <div class="input-container">
-              <input
-                class="main-search-form__input"
-                type="text"
-                placeholder="Where are you going?"
-              />
-              <i class="fa-solid fa-chevron-right"></i>
-            </div>
-            <div class="input-container">
-              <input
-                class="main-search-form__input"
-                type="text"
-                placeholder="2 adults - 0 children"
-              />
-              <i class="fa-solid fa-chevron-right"></i>
-            </div>
-            <button
-              aria-label="Search Button"
-              class="main-search-form button-search-main"
-            >
-              <span class="button-search-main__text">Search</span>
-            </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Our traveling agency page" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Travelu - Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+    <section class="header-nav">
+      <h1 class="header-nav__title">Travelulu</h1>
+      <div class="hamburger">
+        <a href="active-nav.html" aria-label="Navigation Menu" class="hamburger-button">
+          <i class="fa-solid fa-bars"></i></a>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="main-search-form-section">
+      <h2 class="subtitle">Find deals on hotels, homes and much more...</h2>
+      <form>
+        <div class="main-search-form">
+          <div class="input-container">
+            <input class="main-search-form__input" type="text" placeholder="Check-in - Check-out" />
+            <i class="fa-solid fa-chevron-right"></i>
           </div>
-        </form>
-      </section>
-      <section class="main-block">
-        <section class="search-destination-form">
-          <form class="destination-form-box">
-            <div class="destination-search-form">
-              <span class="destination-search-form__subtitle">Search</span>
-              <div class="input-container-second-form">
-                <label for="destination-property"
-                  >Destination/property name</label
-                >
-                <input
-                  class="main-search-form__input"
-                  type="text"
-                  placeholder="Gold Coast"
-                  id="destination-property"
-                />
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-              <div class="input-container-second-form">
-                <label for="date">Check-in date</label>
-                <input
-                  class="main-search-form__input"
-                  type="text"
-                  placeholder="Check-in-date"
-                  id="date"
-                />
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <div class="input-container-second-form">
-                <label for="leave-date">Check-out date</label>
-                <input
-                  class="main-search-form__input"
-                  type="text"
-                  placeholder="Check-out date"
-                  id="leave-date"
-                />
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <div class="input-container-second-form">
-                <label for="travellers">Travellers</label>
-                <input
-                  class="main-search-form__input"
-                  type="text"
-                  placeholder="2 adults - 0 children"
-                  id="travellers"
-                />
-                <i class="fa-solid fa-person"></i>
-              </div>
-              <button
-                class="button-destination-form"
-                aria-label="Search Button"
-              >
-                <span class="button-search-main__text">Search</span>
-              </button>
-            </div>
-          </form>
-        </section>
-        <section class="poperties-found">
-          <span class="properties-found__title">254 Properties Found</span>
-          <div class="properties-found__article">
-            <div class="article-direction">
-              <img
-                src="./img/Rectangle-13.webp"
-                width="272"
-                height="204"
-                alt="casa moderna blanca con jardín"
-              />
-              <div class="property-direction">
-                <div class="properties-found__article__stars">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-                <h3 class="properties-found__article__heading">
-                  Estate de la Newcastle
-                </h3>
-                <p>
-                  Newcastle City Center, Newcastle upon Tyne 0.1km from centre
-                </p>
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Show on map</span>
-                <p>
-                  Situated in Newcastle City Centre, Maldron Hotel features free
-                  WiFi and a private court yard.
-                </p>
-                <button class="properties-found-button">Make a booking</button>
-              </div>
-            </div>
+          <div class="input-container">
+            <input class="main-search-form__input" type="text" placeholder="Where are you going?" />
+            <i class="fa-solid fa-chevron-right"></i>
           </div>
-          <div class="properties-found__article--2nd">
-            <div class="article-direction">
-              <img
-                src="./img/Rectangle-19.webp"
-                width="272"
-                height="204"
-                alt="casa moderna de la playa blanca con piscnia"
-              />
-              <div class="property-direction">
-                <div class="properties-found__article__stars">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-                <h3 class="properties-found__article__heading">
-                  Estate de la Newcastle
-                </h3>
-                <p class="properties-found__article__heading">
-                  Newcastle City Center, Newcastle upon Tyne 0.1km from centre
-                </p>
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Show on map</span>
-                <p>
-                  Situated in Newcastle City Centre, Maldron Hotel features free
-                  WiFi and a private court yard.
-                </p>
-                <button class="properties-found-button">Make a booking</button>
-              </div>
-            </div>
+          <div class="input-container">
+            <input class="main-search-form__input" type="text" placeholder="2 adults - 0 children" />
+            <i class="Searclid fa-chevron-right"></i>
           </div>
-          <div class="properties-found__article--3rd">
-            <div class="article-direction">
-              <img
-                src="./img/Rectangle-15.webp"
-                width="272"
-                height="204"
-                alt="casa moderna de la playa blanca con piscnia"
-              />
-              <div class="property-direction">
-                <div class="properties-found__article__stars">
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-                <h3 class="properties-found__article__heading">
-                  Estate de la Newcastle
-                </h3>
-                <p class="properties-found__article__heading--first">
-                  Newcastle City Center, Newcastle upon Tyne 0.1km from centre
-                </p>
-                <i class="fa-solid fa-location-dot"></i>
-                <span>Show on map</span>
-                <p>
-                  Situated in Newcastle City Centre, Maldron Hotel features free
-                  WiFi and a private court yard.
-                </p>
-                <button class="properties-found-button">Make a booking</button>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section class="button-to-notifications">
-        <div class="button-box">
-          <button>
-            <img src="./img/image.svg" alt="Pasar a la siguiente sección" />
+          <button aria-label="Search Button" class="main-search-form button-search-main">
+            <span class="button-search-main__text">Search</span>
           </button>
         </div>
-      </section>
-      <section class="notications-section">
-        <div class="notifications-section notifications-container">
-          <article
-            class="notifications-section notifications-container notification notification__success"
-          >
-            <p
-              class="notifications-section notifications-container notification__text-success"
-            >
-              Lock in a great price for your upcoming stay. Get instant
-              confirmation with FREE cancellation on most rooms!
-            </p>
-          </article>
-          <article
-            class="notifications-section notifications-container notification notification__danger"
-          >
-            <p
-              class="notifications-section notifications-container notification__text-danger"
-            >
-              From 6 April 2022, your chosen cancellation policy will apply,
-              regardless of Coronavirus. We recommend booking a free
-              cancellation option in case your travel plans need to change.
-            </p>
-          </article>
+      </form>
+    </section>
+    <section class="search-destination-form">
+      <form class="destination-form-box">
+        <div class="destination-search-form">
+          <span class="destination-search-form__subtitle">Search</span>
+          <div class="input-container-second-form">
+            <label for="destination-property">Destination/property name</label>
+            <input class="main-search-form__input" type="text" placeholder="Gold Coast" id="destination-property" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="input-container-second-form">
+            <label for="date">Check-in date</label>
+            <input class="main-search-form__input" type="text" placeholder="Check-in-date" id="date" />
+            <i class="fa-solid fa-calendar-days"></i>
+          </div>
+          <div class="input-container-second-form">
+            <label for="leave-date">Check-out date</label>
+            <input class="main-search-form__input" type="text" placeholder="Check-out date" id="leave-date" />
+            <i class="fa-solid fa-calendar-days"></i>
+          </div>
+          <div class="input-container-second-form">
+            <label for="travellers">Travellers</label>
+            <input class="main-search-form__input" type="text" placeholder="2 adults - 0 children" id="travellers" />
+            <i class="fa-solid fa-person"></i>
+          </div>
+          <button class="button-destination-form" aria-label="Search Button">
+            <span class="button-search-main__text">Search</span>
+          </button>
         </div>
-      </section>
-      <section class="more-information-box">
-        <span class="more-information-box__title"
-          >Need more information to get started?</span
-        >
-        <button class="more-information-box more-information-button">
-          CONTACT US
+      </form>
+    </section>
+    <section class="poperties-found">
+      <span class="properties-found__title">254 Properties Found</span>
+      <div class="properties-found__article">
+        <img src="./img/Rectangle-13.webp" width="272" height="204" alt="casa moderna blanca con jardín" />
+        <div class="properties-found__article__stars">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <h3 class="properties-found__article__heading">
+          Estate de la Newcastle
+        </h3>
+        <p>Newcastle City Center, Newcastle upon Tyne 0.1km from centre</p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Show on map</span>
+        <p>
+          Situated in Newcastle City Centre, Maldron Hotel features free WiFi
+          and a private court yard.
+        </p>
+        <button class="properties-found-button">Make a booking</button>
+      </div>
+      <div class="properties-found__article--2nd">
+        <img src="./img/Rectangle-19.webp" width="272" height="204" alt="casa moderna de la playa blanca con piscnia" />
+        <div class="properties-found__article__stars">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <h3 class="properties-found__article__heading">
+          Estate de la Newcastle
+        </h3>
+        <p class="properties-found__article__heading">
+          Newcastle City Center, Newcastle upon Tyne 0.1km from centre
+        </p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Show on map</span>
+        <p>
+          Situated in Newcastle City Centre, Maldron Hotel features free WiFi
+          and a private court yard.
+        </p>
+        <button class="properties-found-button">Make a booking</button>
+      </div>
+      <div class="properties-found__article--3rd">
+        <img src="./img/Rectangle-15.webp" width="272" height="204" alt="casa moderna de la playa blanca con piscnia" />
+        <div class="properties-found__article__stars">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <h3 class="properties-found__article__heading">
+          Estate de la Newcastle
+        </h3>
+        <p class="properties-found__article__heading--first">
+          Newcastle City Center, Newcastle upon Tyne 0.1km from centre
+        </p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Show on map</span>
+        <p>
+          Situated in Newcastle City Centre, Maldron Hotel features free WiFi
+          and a private court yard.
+        </p>
+        <button class="properties-found-button">Make a booking</button>
+      </div>
+    </section>
+    <section class="button-to-notifications">
+      <div class="button-box">
+        <button>
+          <img src="./img/image.svg" height="54" width="54" alt="Pasar a la siguiente sección" />
         </button>
-      </section>
-    </main>
-    <footer>
-      <section class="footer-main"></section>
-      <span class="footer footer-title">Travelulu</span>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-        ullamcorper magna, ac laoreet ex. Integer a consequat lectus. Nullam
-        tortor sem
-      </p>
-      <span class="footer footer-copyright">
-        Copyright 2021, All Rights Reserved.
-      </span>
-      <section class="footer-contact">
-        <span>Contact</span>
-        <a href="mailto:travelulu@website.com">travelulu@website.com</a>
-        <p>22 Street Address, Suburb Address Main City, PO Box, Country</p>
-        <a href="tel:08-8888-88888">08 8888 88888</a>
-      </section>
-    </footer>
-  </body>
+      </div>
+    </section>
+    <section class="notications-section">
+      <div class="notifications-section notifications-container">
+        <article class="notifications-section notifications-container notification notification__success">
+          <i class="fa-regular fa-thumbs-up"></i>
+          <p class="notifications-section notifications-container notification__text-success">
+            Lock in a great price for your upcoming stay. Get instant
+            confirmation with FREE cancellation on most rooms!
+          </p>
+          <i class="fa-solid fa-xmark x-button-1"></i>
+        </article>
+        <article class="notifications-section notifications-container notification notification__danger">
+          <i class="fa-solid fa-circle-info"></i>
+          <p class="notifications-section notifications-container notification__text-danger">
+            From 6 April 2022, your chosen cancellation policy will apply,
+            regardless of Coronavirus. We recommend booking a free
+            cancellation option in case your travel plans need to change.
+          </p>
+          <i class="fa-solid fa-xmark x-button-2"></i>
+        </article>
+      </div>
+    </section>
+    <section class="more-information-box">
+      <span class="more-information-box__title">Need more information to get started?</span>
+      <button class="more-information-box more-information-button">
+        CONTACT US
+      </button>
+    </section>
+  </main>
+  <footer>
+    <section class="footer-main"></section>
+    <span class="footer footer-title">Travelulu</span>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+      ullamcorper magna, ac laoreet ex. Integer a consequat lectus. Nullam
+      tortor sem
+    </p>
+    <span class="footer footer-copyright">
+      Copyright 2021, All Rights Reserved.
+    </span>
+    <section class="footer-contact">
+      <span>Contact</span>
+      <a href="mailto:travelulu@website.com">travelulu@website.com</a>
+      <p>22 Street Address, Suburb Address Main City, PO Box, Country</p>
+      <a href="tel:08-8888-88888">08 8888 88888</a>
+    </section>
+  </footer>
+</body>
+
 </html>
