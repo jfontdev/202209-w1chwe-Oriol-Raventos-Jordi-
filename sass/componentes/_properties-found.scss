@@ -33,7 +33,19 @@
   margin-right: 30px;
 }
 
+.properties-found__article--3rd {
+  margin-top: 30px;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .properties-found__article--2nd img {
+  display: block;
+}
+
+.properties-found__article--3rd img {
   display: block;
 }
 
@@ -51,6 +63,19 @@
 }
 
 .properties-found__article--2nd span {
+  font-family: "Poppins";
+  color: #5f2eea;
+}
+
+.properties-found__article--3rd p {
+  font-family: "Poppins";
+  text-align: left;
+  color: #4e4b66;
+  font-size: 0.9rem;
+  margin-top: -0.1px;
+}
+
+.properties-found__article--3rd span {
   font-family: "Poppins";
   color: #5f2eea;
 }
