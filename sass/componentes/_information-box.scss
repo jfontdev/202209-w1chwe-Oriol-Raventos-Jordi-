@@ -12,6 +12,13 @@
   padding-top: 30px;
   padding-bottom: 30px;
   margin-top: 20px;
+  background: rgb(95, 46, 234);
+  background: linear-gradient(
+    118deg,
+    rgba(95, 46, 234, 1) 0%,
+    rgba(84, 37, 219, 1) 35%,
+    rgba(78, 12, 171, 1) 100%
+  );
 }
 
 .more-information-box__title {
