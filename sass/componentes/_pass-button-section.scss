@@ -2,26 +2,13 @@
   position: relative;
 }
 
-.button-to-notifications__line {
-  border-top: 1px solid #d9dbe9;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.button-to-notifications__line--2nd {
-  border-top: 1px solid #d9dbe9;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
 .button-to-notifications button {
-  position: absolute;
   top: -31px;
-  left: 12.2rem;
   border: none;
   background-color: white;
 }
 
 .button-box {
   display: flex;
+  justify-content: center;
 }
