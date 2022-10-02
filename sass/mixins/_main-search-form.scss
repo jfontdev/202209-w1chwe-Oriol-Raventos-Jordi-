@@ -3,3 +3,10 @@
   flex-direction: column;
   border-bottom: 1px solid #d9dbe9;
 }
+
+@mixin main-search-form-desktop() {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #d9dbe9;
+  margin-left: 0;
+}
