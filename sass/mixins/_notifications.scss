@@ -17,11 +17,13 @@
   margin-top: 70px;
   margin-bottom: 40px;
   font-size: 0.8rem;
+  position: relative;
 }
 
 @mixin notification_card_danger {
   border-color: #ed2e7e;
   background-color: #fff3f8;
+  position: relative;
 }
 
 @mixin notification_text_success {
