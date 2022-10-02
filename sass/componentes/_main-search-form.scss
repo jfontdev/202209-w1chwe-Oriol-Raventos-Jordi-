@@ -33,8 +33,16 @@
   margin-top: 10px;
   padding: 10px;
 }
+.input-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d9dbe9;
+  position: relative;
+}
 
 .fa-chevron-right {
   position: absolute;
-  right: 5%;
+  left: unset;
+  right: 40px;
+  top: 12px;
 }
