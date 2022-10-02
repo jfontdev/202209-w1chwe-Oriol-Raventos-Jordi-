@@ -50,6 +50,9 @@
   .main-search-form-section {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1200px;
   }
   .button-search-main {
     padding: 10px;
@@ -103,6 +106,10 @@
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1200px;
+    padding-top: 30px;
   }
   .property-direction {
     display: flex;
