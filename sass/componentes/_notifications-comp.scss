@@ -18,3 +18,7 @@
 .notification__text-danger {
   @include notifications.notification_text_danger;
 }
+
+.notification-section {
+  margin-top: -25px;
+}
