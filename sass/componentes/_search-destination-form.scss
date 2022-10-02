@@ -47,3 +47,34 @@
 .button-destination-form {
   margin-top: 10px;
 }
+
+.input-container-second-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input-container-second-form ::placeholder {
+  padding-left: 25px;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  right: unset;
+  left: 40px;
+  top: 32px;
+}
+
+.fa-calendar-days {
+  position: absolute;
+  right: unset;
+  left: 40px;
+  top: 30px;
+}
+
+.fa-person {
+  position: absolute;
+  right: unset;
+  left: 42px;
+  top: 30px;
+}
