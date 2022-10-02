@@ -11,3 +11,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin button-search-main-desktop() {
+  background-color: #ed2e7e;
+  border-radius: 1rem;
+  border: #fff;
+  display: flex;
+  border: #ed2e7e;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
